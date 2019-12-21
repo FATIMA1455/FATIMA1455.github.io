@@ -1,0 +1,105 @@
+
+
+#a{
+background: black;
+}
+
+.b{
+	
+	height: 600px;
+	width: 100%;
+}
+.L {
+	background: black;
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 0;
+  margin-right: 10px;
+  margin-left: 0;
+  height: auto;
+  position: relative; }
+
+  .c{
+  	height: 150px;
+  	width: 300px;
+  }
+ /* Container holding the image and the text */
+.container {
+  position:relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ .content{
+  height: 350px;
+  display: flex;
+}
+ .content .section{
+  flex: 1;
+  padding: 25px;
+  font-family: arial;
+}
+
+.section p:hover{
+  transition: 2s;
+}
+
+/*.g{
+  width:50px;
+  height:50PX;*/
+}
+
+p{
+  width: 100%;
+}
+
+.bh{
+  background-image: url(../images/bh.jfif);
+  background-size: cover;}
+
+
+ .an{
+  width: 5px;
+  height: 5px;
+ }
+
+.container{
+  marker-top:8%; 
+  display: flex;
+}
+
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
+.footer .content{
+  height: 350px;
+  display: flex;
+}
+.footer .content .section{
+  flex: 1;
+  padding: 25px;
+  font-family: arial;
+}
+
+.n{
+  width:100%; 
+}
+.mySlides {
+  display:none;
+}
